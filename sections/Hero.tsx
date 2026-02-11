@@ -12,9 +12,8 @@ const LandingPage: React.FC = () => {
                 <div className="flex items-center gap-2 font-bold text-lg tracking-wide">
                     {/* Logo Icon */}
                     <div className="">
-                        <img src="/images/Hero/logo.svg" alt="" className='' />
+                        <img src="/images/Hero/logo.svg" alt="" className='w-20 h-20' />
                     </div>
-                    <span></span>
                 </div>
 
                 {/* Navigation Links - Hidden on small mobile screens, visible on md+ */}
@@ -55,12 +54,12 @@ const LandingPage: React.FC = () => {
                     <div className="absolute inset-0 flex flex-col justify-center items-center text-center z-10">
 
                         {/* Title: Matches the bright blue color in your design */}
-                        <h1 className="text-5xl md:text-7xl font-medium bg-gradient-to-r from-[#0066FF] to-[#0095FF] bg-clip-text text-transparent tracking-tight mb-2">
+                        <h1 className="text-3xl md:text-7xl font-medium bg-gradient-to-r from-[#0066FF] to-[#0095FF] bg-clip-text text-transparent tracking-tight mb-2">
                             BLU V2.0
                         </h1>
 
                         {/* Subtitle: White text with line break */}
-                        <p className="bg-gradient-to-tl from-[#FFFFFF] from-10% to-[#0066FF] to-150% bg-clip-text text-transparent text-2xl font-medium leading-snug">
+                        <p className="bg-gradient-to-tl from-[#FFFFFF] from-10% to-[#0066FF] to-150% bg-clip-text text-transparent text-lg sm:text-2xl font-medium leading-snug">
                             Built Just For Learning,<br />
                             Only at Unlox
                         </p>

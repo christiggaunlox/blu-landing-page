@@ -16,7 +16,7 @@ const Download: React.FC = () => {
                         </h1>
                     </header>
 
-                    <a href="#" className="inline-block transition-transform hover:scale-105">
+                    <a href="https://play.google.com/store/apps/details?id=com.unlox.bluapp&hl=en_IN" className="inline-block transition-transform hover:scale-105">
                         <img
                             src="/images/Download/playstore.svg"
                             alt="Get it on Google Play"

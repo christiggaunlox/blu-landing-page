@@ -31,7 +31,7 @@ const Contact: React.FC = () => {
                         <div>
                             <label className="block text-sm text-gray-300 mb-2">Name</label>
                             <input
-                                className="w-full bg-[#0a0f1c] border border-[#A0A4AB80] rounded-lg px-4 py-3 text-gray-200"
+                                className="w-full bg-[#0a0f1c] border border-[#A0A4AB80] rounded-lg px-4 py-3 text-gray-200 placeholder:text-sm"
                                 placeholder="Enter Your Name"
                             />
                         </div>
@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
                             <label className="block text-sm text-gray-300 mb-2">Email</label>
                             <input
                                 type="email"
-                                className="w-full bg-[#0a0f1c] border border-[#A0A4AB80] rounded-lg px-4 py-3 text-gray-200"
+                                className="w-full bg-[#0a0f1c] border border-[#A0A4AB80] rounded-lg px-4 py-3 text-gray-200 placeholder:text-sm"
                                 placeholder="Enter Your Email"
                             />
                         </div>
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
                                     <option>+44</option>
                                 </select>
                                 <input
-                                    className="flex-grow bg-transparent px-4 py-3 text-gray-200 focus:outline-none"
+                                    className="flex-grow bg-transparent px-4 py-3 text-gray-200 focus:outline-none placeholder:text-sm"
                                     placeholder="Enter phone number"
                                 />
                             </div>
